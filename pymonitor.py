@@ -101,7 +101,7 @@ def main_loop():
 			send_thecus.write_message(msg1 = msg1, msg2 = msg2,
 					port = opts.port)
 
-		time.sleep(1)
+		time.sleep(2)
 
 class MyDaemon(daemon):
 	def run(self):
